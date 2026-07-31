@@ -111,6 +111,23 @@ VS Code provides built-in terminal splits so you can run the backend and fronten
 
 ---
 
+## 🧪 Running Automated Tests
+
+To verify backend API functionality, a test suite is included in the project.
+
+### Running Backend Tests:
+1. Navigate to the backend folder:
+   ```powershell
+   cd backend
+   ```
+2. Activate your virtual environment and run:
+   ```powershell
+   pytest -v
+   ```
+   *This runs integration tests covering OTP request generation, farmer registration, and authentication token generation using an automated sqlite test environment.*
+
+---
+
 ## 🔑 Demo Access Credentials
 
 The database seeder pre-loads multiple test roles with preset configurations:
